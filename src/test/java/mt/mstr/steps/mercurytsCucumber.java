@@ -21,6 +21,7 @@ public class mercurytsCucumber {
 	@When("^user open \"(.*)\" browser$")
     public String OpenBrowser(String browsernm)
     {
+		System.out.println("openbrowser");
     	if(browsernm.equalsIgnoreCase("chrome"))
     	{
     		System.setProperty("webdriver.chrome.driver","F:\\16122018\\chromedriver_win32\\chromedriver.exe");
