@@ -21,8 +21,7 @@ public class mercurytsCucumber {
 	@When("^user open \"(.*)\" browser$")
     public String OpenBrowser(String browsernm)
     {
-	   System.out.println("openbrr");
-		System.out.println("openbrowser");
+	   
 	    
 		System.out.println("openbrowser");
     	if(browsernm.equalsIgnoreCase("chrome"))
